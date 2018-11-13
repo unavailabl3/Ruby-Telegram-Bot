@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.files       = `git ls-files`.split("\n")
   s.add_dependency('faraday', '~> 0', '>= 0')
-  s.add_dependency('json', '~> 0', '>= 0')
+  s.add_dependency('json', '~> 1.5.5', '>= 1.5.5')
 end
